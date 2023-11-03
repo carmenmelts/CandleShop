@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Edu TAS Beginner';
+    line-height: 2;
+}
+
+.intro-image{
+    background-attachment: fixed;
+    background-image: url("../img/img1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__text a{
+    background-color: #413023aa;
+    border: 2px solid #231a13;
+    color: #c4bab0;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-top: -50%;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.intro-image__text a:hover{
+    transform: scale(1.2);
+}   
+
+.intro-text{
+    background-color: #8b6347;
+    color: #e3e2e3;
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -75px;
+    margin-bottom: -50px;
+    height: 250px;
+    padding: 0 10rem;
+    clip-path: polygon(51% 4%, 51% 4%, 100% 0, 100% 91%, 64% 100%, 38% 100%, 0 91%, 0 0);
+}
+
+.intro-text_textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url("../img/img2.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__text a{
+    background-color: #5a312393;
+    border: 2px solid #5a3123;
+    color: #e2b7ab;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-top: -50%;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.packaging-image__text a:hover{
+    transform: scale(1.2);
+}
+
+.packaging-text{
+    background-color: #c33357;
+    color: #ead2d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -75px;
+    margin-bottom: -50px;
+    height: 450px;
+    padding: 0 10rem;
+    clip-path: polygon(51% 4%, 51% 4%, 100% 0, 100% 91%, 64% 100%, 38% 100%, 0 91%, 0 0);
+}
+
+.packaging_text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.tutorials-image{
+    background-attachment: fixed;
+    background-image: url("../img/img3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image__text {
+    color: #c69885;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 2s ease-in-out
+}
+
+.tutorials-image__text a:hover{
+    transform: scale(1.2);
+}
+
+.btn{
+    border-bottom: 0.2rem solid #31221c;
+    color: #31221c;
+    display: inline-block;
+    font-size: 3rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.footer{
+    height: 150px;
+    background-color: #7c303c;
+    color: #b0a4a0;
+    font-size: 1.5rem;
+    padding-top: 0.2rem;
+    text-align: center;
+}
+.footer ul li{
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a{
+    color: #b0a4a0;
+    text-decoration: none;
+}
+
+.footer ul li:hover, footer ul li a:hover {
+    color: #ffe9e9;
+    transform: scale(1.2);
+}
